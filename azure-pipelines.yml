@@ -81,7 +81,7 @@ stages:
       displayName: 'Azure Web App Deploy to QA'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'ADO_ServiceConnection'
+        azureSubscription: 'Microservices_Connection'
         appType: 'webApp'
         WebAppName: 'webapp-msqa-cc-license'
         package: '$(Pipeline.Workspace)/drop'
