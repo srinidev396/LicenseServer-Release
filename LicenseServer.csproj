@@ -63,4 +63,8 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="bin\Smead.Security.dll" />
+  </ItemGroup>
+
 </Project>
